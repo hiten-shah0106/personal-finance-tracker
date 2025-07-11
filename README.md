@@ -129,7 +129,7 @@ To get started with the **Personal Finance Tracker** project, follow these steps
     - Start by adding some transactions
     - View monthly summaries to track your financial progress
     - Visualize your spendings
-    - Export data for external analysis or backup
+    - Export data for external analysis.
 
 ---
 
