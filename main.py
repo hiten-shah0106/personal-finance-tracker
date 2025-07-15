@@ -11,6 +11,7 @@ def main():
         print("4. Monthly Data Report")
         print("5. Monthly Visualized Data")
         print("6. Export Data to CSV")
+        # print("8. Add Sample Transactions")
         print("7. Exit")
 
         choice = input("Enter your choice: ")
@@ -32,6 +33,8 @@ def main():
         elif choice == '7':
             print("Exiting program.")
             break
+        # elif choice== '8':
+        #     tracker.add_sample_transactions()
         else:
             print("Invalid choice, please try again.")     
 main()

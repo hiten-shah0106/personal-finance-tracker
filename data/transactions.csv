@@ -1,13 +1,11 @@
 Date,Amount,Description,Category
-01-12-25,15000,No Description,Miscellaneous
-01-11-25,-5000,No Description,Food
-01-10-25,2000,No Description,Miscellaneous
-01-09-25,-1000,No Description,Entertainment
-01-08-25,500,No Description,Miscellaneous
-01-07-25,-300,No Description,Food
-01-06-25,12000,No Description,Miscellaneous
-01-05-25,-2000,No Description,Miscellaneous
-01-04-25,8000,No Description,Miscellaneous
-01-03-25,-4000,No Description,Rent
-01-02-25,10000,No Description,Miscellaneous
-01-01-25,-6000,No Description,Miscellaneous
+07-04-2023,4106,Medical Bills,Food
+14-12-2023,-1854,Medical Bills,Food
+10-01-2023,7162,Restaurant Bill,Food
+20-08-2023,-4452,Restaurant Bill,Miscellaneous
+25-07-2023,-3239,Travel Ticket,Food
+10-10-2023,4106,Clothing Purchase,Health
+24-06-2023,-1854,Restaurant Bill,Entertainment
+22-02-2023,7162,Grocery Shopping,Travel
+05-12-2023,8419,Travel Ticket,Clothing
+16-02-2023,-1854,Grocery Shopping,Travel
