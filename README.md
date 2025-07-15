@@ -1,6 +1,6 @@
 # Personal Finance Tracker
 
-A Python-based **Personal Finance Tracker** that helps users track their income, expenses, and savings. The tool supports categorizing transactions, setting budgets, generating monthly summaries, and visualizing financial data with graphs.
+A Python-based **Personal Finance Tracker** that helps users track their income, expenses, and savings. The tool supports categorizing transactions, setting budgets, generating monthly summaries, and visualizing financial data with graphs. This version now supports persistent storage using SQLite for storing transaction data.
 
 ---
 
@@ -20,11 +20,11 @@ A Python-based **Personal Finance Tracker** that helps users track their income,
 
 This project allows users to manage their personal finances by:
 
--   Adding transactions with descriptions and categories
--   Viewing summaries of income, expenses, and savings
--   Generating monthly summaries and visualizing spending via charts
--   Setting budgets for categories and tracking budget usage
--   Exporting data to CSV or Excel for external analysis
+-   **Adding transactions** with descriptions and categories (income and expenses)
+-   **Viewing summaries** of income, expenses, and savings on a monthly basis
+-   **Generating monthly summaries** and visualizing spending via charts
+-   **Exporting transaction data** to CSV or Excel for external analysis
+-   **Storing transaction data** persistently using SQLite
 
 ---
 
@@ -34,11 +34,12 @@ This project allows users to manage their personal finances by:
 
     -   Add income and expense transactions with detailed descriptions
     -   Categorize transactions for better tracking (e.g., Food, Rent, Entertainment)
+    -   Data is stored persistently in an SQLite database for easy management
 
 -   **Monthly Summary**:
 
     -   View a detailed summary of income, expenses, and savings on a monthly basis
-    -   Visualize the breakdown of spending by category
+    -   Visualize the breakdown of spending by category with charts
 
 -   **Data Export**:
 
@@ -55,6 +56,7 @@ This project allows users to manage their personal finances by:
 -   **Pandas**: For handling data structures and performing data analysis
 -   **Matplotlib**: For data visualization, creating bar and pie charts
 -   **Seaborn**: Enhances Matplotlib charts with better aesthetics
+-   **SQLite**: For persistent storage of transactions
 -   **CSV/Excel**: For exporting transaction data for further analysis
 
 ---
@@ -144,3 +146,5 @@ To get started with the **Personal Finance Tracker** project, follow these steps
 ---
 
 **Happy tracking your finances! 💰📊**
+
+---
